@@ -9,19 +9,47 @@
 /* Begin PBXBuildFile section */
 		DA790B362AAF6B2100EB621E /* MyLaunch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA790B352AAF6B2100EB621E /* MyLaunch.storyboard */; };
 		DA790B382AAF6B3600EB621E /* MyLaunchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA790B372AAF6B3600EB621E /* MyLaunchVC.swift */; };
+		DA790B3D2AAF6C6E00EB621E /* HotelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA790B3C2AAF6C6E00EB621E /* HotelVC.swift */; };
+		DA790B3F2AAF6C7600EB621E /* Hotel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA790B3E2AAF6C7600EB621E /* Hotel.storyboard */; };
+		DA790B422AAF6E2E00EB621E /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA790B412AAF6E2E00EB621E /* ViewModel.swift */; };
+		DA790B462AB0614500EB621E /* sf-pro-display-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DA790B452AB0614500EB621E /* sf-pro-display-medium.otf */; };
+		DA790B482AB062DB00EB621E /* sf-pro-display-semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DA790B472AB062DB00EB621E /* sf-pro-display-semibold.otf */; };
+		DA790B4A2AB0637000EB621E /* sf-pro-display-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DA790B492AB0637000EB621E /* sf-pro-display-regular.otf */; };
+		DA790B4D2AB0649400EB621E /* HotelCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA790B4C2AB0649400EB621E /* HotelCVC.swift */; };
+		DA790B502AB082EB00EB621E /* HotelLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA790B4F2AB082EB00EB621E /* HotelLayoutManager.swift */; };
+		DA790B552AB0C49100EB621E /* Room.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA790B542AB0C49100EB621E /* Room.storyboard */; };
+		DA790B572AB0C4A600EB621E /* RoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA790B562AB0C4A600EB621E /* RoomVC.swift */; };
+		DA790B5A2AB0C8C700EB621E /* RoomCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA790B592AB0C8C700EB621E /* RoomCVC.swift */; };
+		DA790B5C2AB0C8DC00EB621E /* RoomTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA790B5B2AB0C8DC00EB621E /* RoomTVC.swift */; };
 		DACE2F2E2AAF6A620052A12D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACE2F2D2AAF6A620052A12D /* AppDelegate.swift */; };
 		DACE2F372AAF6A640052A12D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACE2F362AAF6A640052A12D /* Assets.xcassets */; };
 		DACE2F3A2AAF6A640052A12D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACE2F382AAF6A640052A12D /* LaunchScreen.storyboard */; };
+		E74D4BB01B670CADC0957E59 /* Pods_RoomRover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF166400169BC0E154E7D25B /* Pods_RoomRover.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		179791E799418D75F4E6829A /* Pods-RoomRover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomRover.release.xcconfig"; path = "Target Support Files/Pods-RoomRover/Pods-RoomRover.release.xcconfig"; sourceTree = "<group>"; };
+		9A3038A59B8A4D3F00E8FD34 /* Pods-RoomRover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomRover.debug.xcconfig"; path = "Target Support Files/Pods-RoomRover/Pods-RoomRover.debug.xcconfig"; sourceTree = "<group>"; };
 		DA790B352AAF6B2100EB621E /* MyLaunch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyLaunch.storyboard; sourceTree = "<group>"; };
 		DA790B372AAF6B3600EB621E /* MyLaunchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLaunchVC.swift; sourceTree = "<group>"; };
+		DA790B3C2AAF6C6E00EB621E /* HotelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelVC.swift; sourceTree = "<group>"; };
+		DA790B3E2AAF6C7600EB621E /* Hotel.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Hotel.storyboard; sourceTree = "<group>"; };
+		DA790B412AAF6E2E00EB621E /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		DA790B452AB0614500EB621E /* sf-pro-display-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-pro-display-medium.otf"; sourceTree = "<group>"; };
+		DA790B472AB062DB00EB621E /* sf-pro-display-semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-pro-display-semibold.otf"; sourceTree = "<group>"; };
+		DA790B492AB0637000EB621E /* sf-pro-display-regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-pro-display-regular.otf"; sourceTree = "<group>"; };
+		DA790B4C2AB0649400EB621E /* HotelCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelCVC.swift; sourceTree = "<group>"; };
+		DA790B4F2AB082EB00EB621E /* HotelLayoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelLayoutManager.swift; sourceTree = "<group>"; };
+		DA790B542AB0C49100EB621E /* Room.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Room.storyboard; sourceTree = "<group>"; };
+		DA790B562AB0C4A600EB621E /* RoomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomVC.swift; sourceTree = "<group>"; };
+		DA790B592AB0C8C700EB621E /* RoomCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCVC.swift; sourceTree = "<group>"; };
+		DA790B5B2AB0C8DC00EB621E /* RoomTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomTVC.swift; sourceTree = "<group>"; };
 		DACE2F2A2AAF6A620052A12D /* RoomRover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoomRover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACE2F2D2AAF6A620052A12D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DACE2F362AAF6A640052A12D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DACE2F392AAF6A640052A12D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DACE2F3B2AAF6A640052A12D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF166400169BC0E154E7D25B /* Pods_RoomRover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoomRover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,141 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E74D4BB01B670CADC0957E59 /* Pods_RoomRover.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C3ECF5C36AA9EB5F4C9672A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF166400169BC0E154E7D25B /* Pods_RoomRover.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6072FF353E912E1AD9B129A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A3038A59B8A4D3F00E8FD34 /* Pods-RoomRover.debug.xcconfig */,
+				179791E799418D75F4E6829A /* Pods-RoomRover.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DA790B392AAF6C3F00EB621E /* Hotel */ = {
+			isa = PBXGroup;
+			children = (
+				DA790B4E2AB082C900EB621E /* Layout */,
+				DA790B4B2AB0647900EB621E /* Cell */,
+				DA790B3B2AAF6C6600EB621E /* Controller */,
+				DA790B3A2AAF6C5F00EB621E /* Storyboard */,
+			);
+			path = Hotel;
+			sourceTree = "<group>";
+		};
+		DA790B3A2AAF6C5F00EB621E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DA790B3E2AAF6C7600EB621E /* Hotel.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		DA790B3B2AAF6C6600EB621E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA790B3C2AAF6C6E00EB621E /* HotelVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DA790B402AAF6E1600EB621E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DA790B412AAF6E2E00EB621E /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DA790B432AB0613300EB621E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DA790B442AB0613A00EB621E /* Fonts */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DA790B442AB0613A00EB621E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DA790B492AB0637000EB621E /* sf-pro-display-regular.otf */,
+				DA790B472AB062DB00EB621E /* sf-pro-display-semibold.otf */,
+				DA790B452AB0614500EB621E /* sf-pro-display-medium.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DA790B4B2AB0647900EB621E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DA790B4C2AB0649400EB621E /* HotelCVC.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DA790B4E2AB082C900EB621E /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				DA790B4F2AB082EB00EB621E /* HotelLayoutManager.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		DA790B512AB0C48300EB621E /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				DA790B582AB0C8A700EB621E /* Cell */,
+				DA790B532AB0C48800EB621E /* Storyboard */,
+				DA790B522AB0C48500EB621E /* Controller */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		DA790B522AB0C48500EB621E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA790B562AB0C4A600EB621E /* RoomVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DA790B532AB0C48800EB621E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DA790B542AB0C49100EB621E /* Room.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		DA790B582AB0C8A700EB621E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DA790B592AB0C8C700EB621E /* RoomCVC.swift */,
+				DA790B5B2AB0C8DC00EB621E /* RoomTVC.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		DACE2F212AAF6A620052A12D = {
 			isa = PBXGroup;
 			children = (
 				DACE2F2C2AAF6A620052A12D /* RoomRover */,
 				DACE2F2B2AAF6A620052A12D /* Products */,
+				6072FF353E912E1AD9B129A1 /* Pods */,
+				0C3ECF5C36AA9EB5F4C9672A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +208,7 @@
 			children = (
 				DACE2F2D2AAF6A620052A12D /* AppDelegate.swift */,
 				DACE2F412AAF6AA30052A12D /* Groups */,
+				DA790B432AB0613300EB621E /* Components */,
 				DACE2F362AAF6A640052A12D /* Assets.xcassets */,
 				DACE2F3B2AAF6A640052A12D /* Info.plist */,
 			);
@@ -65,6 +218,8 @@
 		DACE2F412AAF6AA30052A12D /* Groups */ = {
 			isa = PBXGroup;
 			children = (
+				DA790B512AB0C48300EB621E /* Room */,
+				DA790B392AAF6C3F00EB621E /* Hotel */,
 				DACE2F432AAF6AB10052A12D /* MyLaunch */,
 				DACE2F422AAF6AA80052A12D /* Launch */,
 			);
@@ -82,6 +237,7 @@
 		DACE2F432AAF6AB10052A12D /* MyLaunch */ = {
 			isa = PBXGroup;
 			children = (
+				DA790B402AAF6E1600EB621E /* ViewModel */,
 				DACE2F472AAF6ADC0052A12D /* Storyboard */,
 				DACE2F462AAF6AD20052A12D /* Controller */,
 			);
@@ -111,9 +267,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DACE2F3E2AAF6A640052A12D /* Build configuration list for PBXNativeTarget "RoomRover" */;
 			buildPhases = (
+				773CBC239A22E5128FF6BCBF /* [CP] Check Pods Manifest.lock */,
 				DACE2F262AAF6A620052A12D /* Sources */,
 				DACE2F272AAF6A620052A12D /* Frameworks */,
 				DACE2F282AAF6A620052A12D /* Resources */,
+				8982D621ED8522C7A726C0C2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,13 +320,60 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA790B482AB062DB00EB621E /* sf-pro-display-semibold.otf in Resources */,
+				DA790B462AB0614500EB621E /* sf-pro-display-medium.otf in Resources */,
 				DACE2F3A2AAF6A640052A12D /* LaunchScreen.storyboard in Resources */,
+				DA790B552AB0C49100EB621E /* Room.storyboard in Resources */,
 				DACE2F372AAF6A640052A12D /* Assets.xcassets in Resources */,
 				DA790B362AAF6B2100EB621E /* MyLaunch.storyboard in Resources */,
+				DA790B3F2AAF6C7600EB621E /* Hotel.storyboard in Resources */,
+				DA790B4A2AB0637000EB621E /* sf-pro-display-regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		773CBC239A22E5128FF6BCBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoomRover-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8982D621ED8522C7A726C0C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoomRover/Pods-RoomRover-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoomRover/Pods-RoomRover-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RoomRover/Pods-RoomRover-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DACE2F262AAF6A620052A12D /* Sources */ = {
@@ -176,7 +381,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DACE2F2E2AAF6A620052A12D /* AppDelegate.swift in Sources */,
+				DA790B5A2AB0C8C700EB621E /* RoomCVC.swift in Sources */,
+				DA790B572AB0C4A600EB621E /* RoomVC.swift in Sources */,
 				DA790B382AAF6B3600EB621E /* MyLaunchVC.swift in Sources */,
+				DA790B422AAF6E2E00EB621E /* ViewModel.swift in Sources */,
+				DA790B5C2AB0C8DC00EB621E /* RoomTVC.swift in Sources */,
+				DA790B4D2AB0649400EB621E /* HotelCVC.swift in Sources */,
+				DA790B502AB082EB00EB621E /* HotelLayoutManager.swift in Sources */,
+				DA790B3D2AAF6C6E00EB621E /* HotelVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +522,7 @@
 		};
 		DACE2F3F2AAF6A640052A12D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A3038A59B8A4D3F00E8FD34 /* Pods-RoomRover.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +533,7 @@
 				INFOPLIST_FILE = RoomRover/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -339,6 +552,7 @@
 		};
 		DACE2F402AAF6A640052A12D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 179791E799418D75F4E6829A /* Pods-RoomRover.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -349,7 +563,7 @@
 				INFOPLIST_FILE = RoomRover/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;

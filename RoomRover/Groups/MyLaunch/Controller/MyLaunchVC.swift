@@ -38,9 +38,9 @@ private extension MyLaunchVC {
             MyLaunchVC.roomModel = roomModel
         }
         
-//        GetRequests.shared.getBookingData { bookingModel in
-//            MyLaunchVC.bookingModel = bookingModel
-//        }
+        GetRequests.shared.getBookingData { bookingModel in
+            MyLaunchVC.bookingModel = bookingModel
+        }
     }
     
     func configureNavigationConroller() {

@@ -7,6 +7,5 @@ target 'RoomRover' do
 
   # Pods for RoomRover
 pod 'Kingfisher', '~> 6.0'
-pod 'libPhoneNumber-iOS', '~> 0.8'
 
 end

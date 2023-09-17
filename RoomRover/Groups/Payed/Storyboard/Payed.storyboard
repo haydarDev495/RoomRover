@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="sf-pro-display-medium.otf">
+            <string>SFProDisplay-Medium</string>
+        </array>
+        <array key="sf-pro-display-regular.otf">
+            <string>SFProDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--PayedVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="PayedVC" customModule="RoomRover" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Заказ оплачен" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Pr-he-x42">
+                                <rect key="frame" x="129.66666666666666" y="63.666666666666657" width="116" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kg9-4o-8dS">
+                                <rect key="frame" x="10" y="52" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="cAL-f1-uol"/>
+                                    <constraint firstAttribute="height" constant="44" id="sP3-nC-54H"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button" image="arrowBack"/>
+                                <connections>
+                                    <action selector="closeButtonAction" destination="Y6W-OH-hqX" eventType="touchUpInside" id="GkD-JA-xOz"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Заказ оплачен" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qu5-3e-Wfa">
+                                <rect key="frame" x="114.33333333333333" y="348.66666666666669" width="146.33333333333337" height="26.333333333333314"/>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3cz-bs-2B1">
+                                <rect key="frame" x="23" y="395" width="329" height="95.666666666666686"/>
+                                <string key="text">Подтверждение заказа №104893 может занять некоторое время (от 1 часа до суток). Как только мы получим ответ от туроператора, вам на почту придет уведомление.</string>
+                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="16"/>
+                                <color key="textColor" red="0.50980392156862742" green="0.52941176470588236" blue="0.58823529411764708" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Confetti" translatesAutoresizingMaskIntoConstraints="NO" id="aak-47-TOh">
+                                <rect key="frame" x="140.66666666666666" y="222.66666666666663" width="94" height="94"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="94" id="iwF-eU-n8i"/>
+                                    <constraint firstAttribute="width" constant="94" id="w5d-Zl-Ge3"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ue7-Zu-0zI">
+                                <rect key="frame" x="0.0" y="724" width="375" height="88"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="drE-gn-lUw">
+                                        <rect key="frame" x="0.0" y="1" width="375" height="87"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IcR-kd-aoS">
+                                                <rect key="frame" x="16" y="12" width="343" height="48"/>
+                                                <color key="backgroundColor" red="0.050980392159999999" green="0.44705882349999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="343" id="4KM-ro-10M"/>
+                                                    <constraint firstAttribute="height" constant="48" id="Xqm-5f-ZWP"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="16"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Супер!"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="15"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="superButtonAction" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Rzi-Fx-0eI"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="IcR-kd-aoS" firstAttribute="top" secondItem="drE-gn-lUw" secondAttribute="top" constant="12" id="Nkb-Hm-Vve"/>
+                                            <constraint firstItem="IcR-kd-aoS" firstAttribute="leading" secondItem="drE-gn-lUw" secondAttribute="leading" priority="999" constant="13.67" id="Yih-e3-8Gr"/>
+                                            <constraint firstItem="IcR-kd-aoS" firstAttribute="centerX" secondItem="drE-gn-lUw" secondAttribute="centerX" id="bPl-Ti-l0U"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="drE-gn-lUw" firstAttribute="top" secondItem="Ue7-Zu-0zI" secondAttribute="top" constant="1" id="PUI-M5-kaQ"/>
+                                    <constraint firstAttribute="height" constant="88" id="Sb0-jZ-lqW"/>
+                                    <constraint firstAttribute="trailing" secondItem="drE-gn-lUw" secondAttribute="trailing" id="Xhs-SR-W2X"/>
+                                    <constraint firstItem="drE-gn-lUw" firstAttribute="leading" secondItem="Ue7-Zu-0zI" secondAttribute="leading" id="eTv-CQ-anE"/>
+                                    <constraint firstAttribute="bottom" secondItem="drE-gn-lUw" secondAttribute="bottom" id="gdx-6J-1bg"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Qu5-3e-Wfa" firstAttribute="centerX" secondItem="aak-47-TOh" secondAttribute="centerX" id="8rH-dS-NPh"/>
+                            <constraint firstItem="3cz-bs-2B1" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="23" id="IMK-JQ-afw"/>
+                            <constraint firstItem="Qu5-3e-Wfa" firstAttribute="top" secondItem="aak-47-TOh" secondAttribute="bottom" constant="32" id="K5I-LC-7dl"/>
+                            <constraint firstItem="3cz-bs-2B1" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="PGT-Ln-zmS"/>
+                            <constraint firstItem="aak-47-TOh" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="SGq-mt-nQ2"/>
+                            <constraint firstItem="3cz-bs-2B1" firstAttribute="top" secondItem="Qu5-3e-Wfa" secondAttribute="bottom" constant="20" id="TnE-uA-HT6"/>
+                            <constraint firstItem="kg9-4o-8dS" firstAttribute="centerY" secondItem="5Pr-he-x42" secondAttribute="centerY" id="V0L-f4-Vwl"/>
+                            <constraint firstItem="kg9-4o-8dS" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" constant="52" id="Vqi-l0-XDB"/>
+                            <constraint firstAttribute="bottom" secondItem="Ue7-Zu-0zI" secondAttribute="bottom" id="dGQ-y5-nU6"/>
+                            <constraint firstItem="Ue7-Zu-0zI" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="eFF-3y-LMT"/>
+                            <constraint firstItem="5Pr-he-x42" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="fCx-wV-SRI"/>
+                            <constraint firstItem="Ue7-Zu-0zI" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="hej-No-jqv"/>
+                            <constraint firstItem="aak-47-TOh" firstAttribute="top" secondItem="5Pr-he-x42" secondAttribute="bottom" constant="138" id="lQf-yG-fAO"/>
+                            <constraint firstItem="kg9-4o-8dS" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="yYQ-yH-N9Y"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="375" height="812"/>
+                    <connections>
+                        <outlet property="successOrderLabel" destination="3cz-bs-2B1" id="7MP-eN-zjV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-18" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Confetti" width="94" height="94"/>
+        <image name="arrowBack" width="44" height="44"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -11,6 +11,8 @@ class MyLaunchVC: UIViewController {
 
     // - Data
     static var mainModel: HotelData?
+    static var roomModel: RoomViewModel?
+    static var bookingModel: BookingModel?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,26 +25,23 @@ class MyLaunchVC: UIViewController {
 private extension MyLaunchVC {
     
     func configure() {
-        getReq()
-        self.configureNavigationConroller()
+        getHotelData()
+        configureNavigationConroller()
     }
     
-    func getReq() {
-        guard let url = URL(string: "https://run.mocky.io/v3/35e0d18e-2521-4f1b-a575-f0fe366f66e3") else { return }
-        let request = URLRequest(url: url)
-        URLSession.shared.dataTask(with: request) { data, response, error in
-            guard let data = data else { return }
-            do {
-                let decode = JSONDecoder()
-                decode.keyDecodingStrategy = .convertFromSnakeCase
-                MyLaunchVC.mainModel = try decode.decode(HotelData.self, from: data)
-            } catch let error {
-                debugPrint(error.localizedDescription)
-            }
-
-        }.resume()
+    func getHotelData() {
+        GetRequests.shared.getHotelData { hotelModel in
+            MyLaunchVC.mainModel = hotelModel
+        }
+        
+        GetRequests.shared.getRoomData { roomModel in
+            MyLaunchVC.roomModel = roomModel
+        }
+        
+//        GetRequests.shared.getBookingData { bookingModel in
+//            MyLaunchVC.bookingModel = bookingModel
+//        }
     }
-
     
     func configureNavigationConroller() {
         DispatchQueue.main.async {

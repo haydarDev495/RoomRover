@@ -15,8 +15,21 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="3UR-EQ-ArD">
+                                <rect key="frame" x="67.666666666666686" y="245.33333333333337" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="HJl-rI-vSt"/>
+                                    <constraint firstAttribute="height" constant="240" id="yrz-rs-gTH"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.1137254902" green="0.14117647059999999" blue="0.30588235289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3UR-EQ-ArD" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" multiplier="0.9" id="BBj-A1-yfI"/>
+                            <constraint firstItem="3UR-EQ-ArD" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="sJw-Fk-8KT"/>
+                        </constraints>
                     </view>
                     <size key="freeformSize" width="375" height="812"/>
                 </viewController>
@@ -25,4 +38,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo" width="1200" height="1200"/>
+    </resources>
 </document>

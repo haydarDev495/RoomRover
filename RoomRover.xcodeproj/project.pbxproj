@@ -21,9 +21,24 @@
 		DA790B572AB0C4A600EB621E /* RoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA790B562AB0C4A600EB621E /* RoomVC.swift */; };
 		DA790B5A2AB0C8C700EB621E /* RoomCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA790B592AB0C8C700EB621E /* RoomCVC.swift */; };
 		DA790B5C2AB0C8DC00EB621E /* RoomTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA790B5B2AB0C8DC00EB621E /* RoomTVC.swift */; };
+		DA790B5F2AB102B800EB621E /* CoordinatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA790B5E2AB102B800EB621E /* CoordinatorManager.swift */; };
+		DA790B662AB108D300EB621E /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA790B652AB108D300EB621E /* AppConstant.swift */; };
+		DA790B692AB1090300EB621E /* GetRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA790B682AB1090300EB621E /* GetRequests.swift */; };
+		DA790B6E2AB1C96600EB621E /* Payed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA790B6D2AB1C96600EB621E /* Payed.storyboard */; };
+		DA790B702AB1C9A800EB621E /* PayedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA790B6F2AB1C9A800EB621E /* PayedVC.swift */; };
 		DACE2F2E2AAF6A620052A12D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACE2F2D2AAF6A620052A12D /* AppDelegate.swift */; };
 		DACE2F372AAF6A640052A12D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACE2F362AAF6A640052A12D /* Assets.xcassets */; };
 		DACE2F3A2AAF6A640052A12D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACE2F382AAF6A640052A12D /* LaunchScreen.storyboard */; };
+		DAD47B742AB631F3009AA445 /* BookingTVCOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD47B732AB631F3009AA445 /* BookingTVCOne.swift */; };
+		DAD47B772AB74CEC009AA445 /* BookingTVCFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD47B762AB74CEC009AA445 /* BookingTVCFour.swift */; };
+		DAD47B792AB74CF6009AA445 /* BookingTVCFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD47B782AB74CF6009AA445 /* BookingTVCFive.swift */; };
+		DAD47B7B2AB74CFE009AA445 /* BookingTVCSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD47B7A2AB74CFE009AA445 /* BookingTVCSix.swift */; };
+		DAD47B7D2AB74D06009AA445 /* BookingTVCTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD47B7C2AB74D06009AA445 /* BookingTVCTwo.swift */; };
+		DAD47B7F2AB74D0E009AA445 /* BookingTVCThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD47B7E2AB74D0E009AA445 /* BookingTVCThree.swift */; };
+		DADA79042AB3968E00220434 /* Booking.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DADA79032AB3968E00220434 /* Booking.storyboard */; };
+		DADA79062AB396A800220434 /* BookingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADA79052AB396A800220434 /* BookingVC.swift */; };
+		DADA79092AB3A08B00220434 /* BookingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADA79082AB3A08B00220434 /* BookingLayout.swift */; };
+		DAF5B6D82AB3815300042709 /* RoomLayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF5B6D72AB3815300042709 /* RoomLayoutManager.swift */; };
 		E74D4BB01B670CADC0957E59 /* Pods_RoomRover.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF166400169BC0E154E7D25B /* Pods_RoomRover.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,11 +59,26 @@
 		DA790B562AB0C4A600EB621E /* RoomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomVC.swift; sourceTree = "<group>"; };
 		DA790B592AB0C8C700EB621E /* RoomCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCVC.swift; sourceTree = "<group>"; };
 		DA790B5B2AB0C8DC00EB621E /* RoomTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomTVC.swift; sourceTree = "<group>"; };
+		DA790B5E2AB102B800EB621E /* CoordinatorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorManager.swift; sourceTree = "<group>"; };
+		DA790B652AB108D300EB621E /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		DA790B682AB1090300EB621E /* GetRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRequests.swift; sourceTree = "<group>"; };
+		DA790B6D2AB1C96600EB621E /* Payed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Payed.storyboard; sourceTree = "<group>"; };
+		DA790B6F2AB1C9A800EB621E /* PayedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayedVC.swift; sourceTree = "<group>"; };
 		DACE2F2A2AAF6A620052A12D /* RoomRover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoomRover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACE2F2D2AAF6A620052A12D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DACE2F362AAF6A640052A12D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DACE2F392AAF6A640052A12D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DACE2F3B2AAF6A640052A12D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD47B732AB631F3009AA445 /* BookingTVCOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingTVCOne.swift; sourceTree = "<group>"; };
+		DAD47B762AB74CEC009AA445 /* BookingTVCFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingTVCFour.swift; sourceTree = "<group>"; };
+		DAD47B782AB74CF6009AA445 /* BookingTVCFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingTVCFive.swift; sourceTree = "<group>"; };
+		DAD47B7A2AB74CFE009AA445 /* BookingTVCSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingTVCSix.swift; sourceTree = "<group>"; };
+		DAD47B7C2AB74D06009AA445 /* BookingTVCTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingTVCTwo.swift; sourceTree = "<group>"; };
+		DAD47B7E2AB74D0E009AA445 /* BookingTVCThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingTVCThree.swift; sourceTree = "<group>"; };
+		DADA79032AB3968E00220434 /* Booking.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Booking.storyboard; sourceTree = "<group>"; };
+		DADA79052AB396A800220434 /* BookingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingVC.swift; sourceTree = "<group>"; };
+		DADA79082AB3A08B00220434 /* BookingLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingLayout.swift; sourceTree = "<group>"; };
+		DAF5B6D72AB3815300042709 /* RoomLayoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomLayoutManager.swift; sourceTree = "<group>"; };
 		EF166400169BC0E154E7D25B /* Pods_RoomRover.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoomRover.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -153,6 +183,7 @@
 		DA790B512AB0C48300EB621E /* Room */ = {
 			isa = PBXGroup;
 			children = (
+				DAF5B6D62AB3814700042709 /* Layout */,
 				DA790B582AB0C8A700EB621E /* Cell */,
 				DA790B532AB0C48800EB621E /* Storyboard */,
 				DA790B522AB0C48500EB621E /* Controller */,
@@ -185,6 +216,66 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		DA790B5D2AB102A800EB621E /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				DA790B5E2AB102B800EB621E /* CoordinatorManager.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		DA790B632AB1088600EB621E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DA790B672AB108F700EB621E /* GetRequests */,
+				DA790B642AB108C800EB621E /* AppConstant */,
+				DA790B402AAF6E1600EB621E /* ViewModel */,
+				DA790B5D2AB102A800EB621E /* Coordinator */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DA790B642AB108C800EB621E /* AppConstant */ = {
+			isa = PBXGroup;
+			children = (
+				DA790B652AB108D300EB621E /* AppConstant.swift */,
+			);
+			path = AppConstant;
+			sourceTree = "<group>";
+		};
+		DA790B672AB108F700EB621E /* GetRequests */ = {
+			isa = PBXGroup;
+			children = (
+				DA790B682AB1090300EB621E /* GetRequests.swift */,
+			);
+			path = GetRequests;
+			sourceTree = "<group>";
+		};
+		DA790B6A2AB1C94B00EB621E /* Payed */ = {
+			isa = PBXGroup;
+			children = (
+				DA790B6C2AB1C95B00EB621E /* Storyboard */,
+				DA790B6B2AB1C95300EB621E /* Controller */,
+			);
+			path = Payed;
+			sourceTree = "<group>";
+		};
+		DA790B6B2AB1C95300EB621E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA790B6F2AB1C9A800EB621E /* PayedVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DA790B6C2AB1C95B00EB621E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DA790B6D2AB1C96600EB621E /* Payed.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		DACE2F212AAF6A620052A12D = {
 			isa = PBXGroup;
 			children = (
@@ -208,9 +299,10 @@
 			children = (
 				DACE2F2D2AAF6A620052A12D /* AppDelegate.swift */,
 				DACE2F412AAF6AA30052A12D /* Groups */,
-				DA790B432AB0613300EB621E /* Components */,
 				DACE2F362AAF6A640052A12D /* Assets.xcassets */,
 				DACE2F3B2AAF6A640052A12D /* Info.plist */,
+				DA790B632AB1088600EB621E /* Core */,
+				DA790B432AB0613300EB621E /* Components */,
 			);
 			path = RoomRover;
 			sourceTree = "<group>";
@@ -218,6 +310,8 @@
 		DACE2F412AAF6AA30052A12D /* Groups */ = {
 			isa = PBXGroup;
 			children = (
+				DA790B6A2AB1C94B00EB621E /* Payed */,
+				DADA79002AB3967400220434 /* Booking */,
 				DA790B512AB0C48300EB621E /* Room */,
 				DA790B392AAF6C3F00EB621E /* Hotel */,
 				DACE2F432AAF6AB10052A12D /* MyLaunch */,
@@ -237,7 +331,6 @@
 		DACE2F432AAF6AB10052A12D /* MyLaunch */ = {
 			isa = PBXGroup;
 			children = (
-				DA790B402AAF6E1600EB621E /* ViewModel */,
 				DACE2F472AAF6ADC0052A12D /* Storyboard */,
 				DACE2F462AAF6AD20052A12D /* Controller */,
 			);
@@ -258,6 +351,62 @@
 				DA790B352AAF6B2100EB621E /* MyLaunch.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		DAD47B712AB62F84009AA445 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				DAD47B732AB631F3009AA445 /* BookingTVCOne.swift */,
+				DAD47B7C2AB74D06009AA445 /* BookingTVCTwo.swift */,
+				DAD47B7E2AB74D0E009AA445 /* BookingTVCThree.swift */,
+				DAD47B762AB74CEC009AA445 /* BookingTVCFour.swift */,
+				DAD47B782AB74CF6009AA445 /* BookingTVCFive.swift */,
+				DAD47B7A2AB74CFE009AA445 /* BookingTVCSix.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		DADA79002AB3967400220434 /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				DAD47B712AB62F84009AA445 /* cell */,
+				DADA79072AB3A08100220434 /* Layout */,
+				DADA79022AB3968300220434 /* Storyboard */,
+				DADA79012AB3967F00220434 /* Controller */,
+			);
+			path = Booking;
+			sourceTree = "<group>";
+		};
+		DADA79012AB3967F00220434 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DADA79052AB396A800220434 /* BookingVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DADA79022AB3968300220434 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DADA79032AB3968E00220434 /* Booking.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		DADA79072AB3A08100220434 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				DADA79082AB3A08B00220434 /* BookingLayout.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		DAF5B6D62AB3814700042709 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				DAF5B6D72AB3815300042709 /* RoomLayoutManager.swift */,
+			);
+			path = Layout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,6 +474,8 @@
 				DACE2F3A2AAF6A640052A12D /* LaunchScreen.storyboard in Resources */,
 				DA790B552AB0C49100EB621E /* Room.storyboard in Resources */,
 				DACE2F372AAF6A640052A12D /* Assets.xcassets in Resources */,
+				DA790B6E2AB1C96600EB621E /* Payed.storyboard in Resources */,
+				DADA79042AB3968E00220434 /* Booking.storyboard in Resources */,
 				DA790B362AAF6B2100EB621E /* MyLaunch.storyboard in Resources */,
 				DA790B3F2AAF6C7600EB621E /* Hotel.storyboard in Resources */,
 				DA790B4A2AB0637000EB621E /* sf-pro-display-regular.otf in Resources */,
@@ -380,15 +531,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAD47B7B2AB74CFE009AA445 /* BookingTVCSix.swift in Sources */,
+				DAD47B742AB631F3009AA445 /* BookingTVCOne.swift in Sources */,
+				DADA79062AB396A800220434 /* BookingVC.swift in Sources */,
 				DACE2F2E2AAF6A620052A12D /* AppDelegate.swift in Sources */,
+				DA790B662AB108D300EB621E /* AppConstant.swift in Sources */,
 				DA790B5A2AB0C8C700EB621E /* RoomCVC.swift in Sources */,
+				DA790B5F2AB102B800EB621E /* CoordinatorManager.swift in Sources */,
+				DADA79092AB3A08B00220434 /* BookingLayout.swift in Sources */,
+				DA790B692AB1090300EB621E /* GetRequests.swift in Sources */,
+				DAD47B792AB74CF6009AA445 /* BookingTVCFive.swift in Sources */,
 				DA790B572AB0C4A600EB621E /* RoomVC.swift in Sources */,
+				DAF5B6D82AB3815300042709 /* RoomLayoutManager.swift in Sources */,
 				DA790B382AAF6B3600EB621E /* MyLaunchVC.swift in Sources */,
 				DA790B422AAF6E2E00EB621E /* ViewModel.swift in Sources */,
 				DA790B5C2AB0C8DC00EB621E /* RoomTVC.swift in Sources */,
 				DA790B4D2AB0649400EB621E /* HotelCVC.swift in Sources */,
+				DAD47B7F2AB74D0E009AA445 /* BookingTVCThree.swift in Sources */,
+				DA790B702AB1C9A800EB621E /* PayedVC.swift in Sources */,
 				DA790B502AB082EB00EB621E /* HotelLayoutManager.swift in Sources */,
 				DA790B3D2AAF6C6E00EB621E /* HotelVC.swift in Sources */,
+				DAD47B7D2AB74D06009AA445 /* BookingTVCTwo.swift in Sources */,
+				DAD47B772AB74CEC009AA445 /* BookingTVCFour.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

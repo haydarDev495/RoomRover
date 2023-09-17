@@ -36,6 +36,7 @@ class HotelVC: UIViewController {
     
     // - Manager
     private var layout: HotelLayoutManager!
+    private var coordinator: CoordinatorManager!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,7 +44,54 @@ class HotelVC: UIViewController {
     }
     
     @IBAction func choiseRoomButtonAction() {
-        
+//        coordinator.showPayedVC()
+        coordinator.showRoomVC(name: model?.name ?? "")
+    }
+}
+
+// MARK: -
+// MARK: Configure
+private extension HotelVC {
+    func configure() {
+        configureLayout()
+        configureCoordinator()
+        configureData()
+        configureCollectionView()
+    }
+    
+    func configureLayout() {
+        layout = HotelLayoutManager(vc: self)
+    }
+    
+    func configureCoordinator() {
+        coordinator = CoordinatorManager(viewController: self)
+    }
+    
+    func configureData() {
+        if let model = MyLaunchVC.mainModel {
+            self.model = model
+            layout.setupUI(model: model, animate: true)
+        } else {
+            getHotelData()
+        }
+    }
+    
+    func configureCollectionView() {
+        collectionView.dataSource = self
+        collectionView.delegate = self
+    }
+    
+    func getHotelData() {
+        GetRequests.shared.getHotelData { hotelModel in
+            if let model = hotelModel{
+                DispatchQueue.main.async { [weak self] in
+                    guard let sSelf = self else { return }
+                    sSelf.model = model
+                    sSelf.layout.setupUI(model: model, animate: false)
+                    sSelf.collectionView.reloadData()
+                }
+            }
+        }
     }
     
     func muPageControl() {
@@ -60,57 +108,6 @@ class HotelVC: UIViewController {
             pageControl[1].backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.22)
             pageControl[0].backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.1)
         }
-    }
-}
-
-// MARK: -
-// MARK: Configure
-private extension HotelVC {
-    func configure() {
-        configureLayout()
-        configureData()
-        configureCollectionView()
-    }
-    
-    func configureLayout() {
-        layout = HotelLayoutManager(vc: self)
-    }
-    
-    func configureData() {
-        if let model = MyLaunchVC.mainModel {
-            self.model = model
-            layout.setupUI(model: model, animate: true)
-        } else {
-            getReq()
-        }
-    }
-    
-    func configureCollectionView() {
-        collectionView.dataSource = self
-        collectionView.delegate = self
-    }
-    
-    func getReq() {
-        guard let url = URL(string: "https://run.mocky.io/v3/35e0d18e-2521-4f1b-a575-f0fe366f66e3") else { return }
-        let request = URLRequest(url: url)
-        URLSession.shared.dataTask(with: request) { [weak self] data, response, error in
-            guard let data = data , let sSelf = self else { return }
-            do {
-                let decode = JSONDecoder()
-                decode.keyDecodingStrategy = .convertFromSnakeCase
-                sSelf.model = try decode.decode(HotelData.self, from: data)
-                if let model = sSelf.model {
-                    DispatchQueue.main.async { [weak self] in
-                        guard let sSelf = self else { return }
-                        sSelf.layout.setupUI(model: model, animate: false)
-                        sSelf.collectionView.reloadData()
-                    }
-                }
-            } catch let error {
-                debugPrint(error.localizedDescription)
-            }
-
-        }.resume()
     }
 }
 
@@ -133,8 +130,6 @@ extension HotelVC: UICollectionViewDataSource {
 extension HotelVC: UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-
-        let sizeWidth = UIScreen.main.bounds.width > 375 ? 343 : UIScreen.main.bounds.width - 32
         return CGSize(width: UIScreen.main.bounds.width, height: 257)
     }
     

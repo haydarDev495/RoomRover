@@ -32,7 +32,6 @@ class HotelCVC: UICollectionViewCell {
                 debugPrint(error.localizedDescription)
             }
         }
-        
     }
 }
 

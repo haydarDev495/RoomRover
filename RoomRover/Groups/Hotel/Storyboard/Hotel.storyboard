@@ -39,7 +39,7 @@
                                 <rect key="frame" x="0.0" y="100.66666666666669" width="375" height="623.33333333333326"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2TB-QV-HVb">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="878"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="871"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d8e-2E-HLi">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="429"/>
@@ -232,7 +232,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SNa-7k-BoG">
-                                                <rect key="frame" x="0.0" y="444" width="375" height="428"/>
+                                                <rect key="frame" x="0.0" y="437" width="375" height="428"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Об отеле" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CWY-xG-r3v">
                                                         <rect key="frame" x="16" y="9.9999999999999982" width="343" height="26.333333333333329"/>
@@ -500,7 +500,7 @@
                                         <constraints>
                                             <constraint firstItem="d8e-2E-HLi" firstAttribute="centerX" secondItem="2TB-QV-HVb" secondAttribute="centerX" id="4aS-g8-gOP"/>
                                             <constraint firstAttribute="trailing" secondItem="SNa-7k-BoG" secondAttribute="trailing" id="7Pr-Lv-Pil"/>
-                                            <constraint firstAttribute="height" constant="878" id="Dwj-NZ-S0l"/>
+                                            <constraint firstAttribute="height" constant="871" id="Dwj-NZ-S0l"/>
                                             <constraint firstItem="d8e-2E-HLi" firstAttribute="top" secondItem="2TB-QV-HVb" secondAttribute="top" id="VNh-y1-JXd"/>
                                             <constraint firstAttribute="bottom" secondItem="SNa-7k-BoG" secondAttribute="bottom" constant="6" id="fHT-FP-GbH"/>
                                             <constraint firstItem="d8e-2E-HLi" firstAttribute="leading" secondItem="2TB-QV-HVb" secondAttribute="leading" id="lnQ-OO-S7z"/>
